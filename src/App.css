@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: blueviolet;
+  border-radius: 20px;
+  padding: 15px 50px;
+  /* padding: 10px 20px 20px; */
+  max-width: 320px;
+}
+
+.container h2 {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section {
+  background-color: #242424;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section div,
+section p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+.questions {
+  color: white;
+}
